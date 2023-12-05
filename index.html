@@ -1,0 +1,41 @@
+<html>
+<head>
+    <style>
+        table {
+          font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        table td, table th {
+          border: 1px solid #5475fb;
+          padding: 8px;
+        }
+        table tr:nth-child(even){background-color: #f2f2f2;}
+        table tr:hover {background-color: #5475fb;}
+        
+        table th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #b70a19;
+          color: #976cbd;
+        }
+
+        .title {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: #f2f2f2;
+        }
+
+        body {
+            background-color: #976cbd;
+        }
+        </style>
+</head>
+<body>
+    <h1 class="title">Resultados do Crowdfunding</h1>
+    <table class="output"></table>
+    <script src="spreadsheet.js"></script>
+</body>
+</html>
